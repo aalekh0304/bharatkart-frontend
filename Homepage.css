@@ -1,0 +1,33 @@
+.homepage {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
